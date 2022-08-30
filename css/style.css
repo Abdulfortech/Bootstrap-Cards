@@ -1,0 +1,63 @@
+/*****************
+    GENERAL CSS
+ ****************/
+body{
+    background-color: #fff;
+}
+
+/****************** 
+    Blog cards
+******************/
+.bcard-1{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid #0d6efd !important;
+}
+
+.bcard-1 img{
+    width: 100%;
+    height: 230px;
+    border-radius: 10px 10px 0px 0px;
+ }
+
+ .bcard-1 .card-body{
+    height: 150px;
+    text-align: justify;
+}
+
+.bcard-2{
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+ .bcard-2 .card-body{
+    height: 150px;
+    text-align: justify;
+}
+
+/*****************
+    PRODUCT
+ ****************/
+ 
+ .product{
+     border-radius: 10px;
+     height: 340px;
+     display: flex;
+ }
+ .product img{
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+ }
+ .product .card-body{
+    height: 80px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 767px) {
+   .product{
+     width: 200px;
+     display: flex;
+ }
+}
+
